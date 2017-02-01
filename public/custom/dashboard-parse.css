@@ -1,0 +1,122 @@
+@import url(https://fonts.googleapis.com/css?family=Dosis);
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro);
+@import url(https://fonts.googleapis.com/css?family=Noto+Sans:400,700);
+body{
+    font-family: 'Noto Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+}
+::-moz-selection {
+    color: white;
+    background: #169cee;
+}
+
+::selection {
+    color: white;
+    background: #169cee;
+}
+#brandWrapper {
+    background-color: #05283c;
+}
+#brandWrapper ,
+#brandWrapper a{
+    color: #ffffff;
+}
+/*
+*
+* SIDEBAR
+*/
+.sidebar{
+    background-color: #0c5582;
+}
+.sidebar i {
+    margin-right: 10px;
+}
+.nav-sidebar > .active > a,
+.nav-sidebar > .active > a:hover,
+.nav-sidebar > .active > a:focus {
+    color: #fff;
+    background-color: #25a1ef;
+}
+.nav-sidebar > li > a {
+    font-size: 13px;
+    padding-right: 10px;
+    padding-left: 15px;
+    color: #ffffff;
+}
+.nav-sidebar > li > a:hover,
+.nav-sidebar > li > a:focus {
+    background-color: #0e4f75;
+}
+
+.main {
+    padding: 0px 20px;
+}
+.no-main{
+    margin-left: -40px;
+    margin-right: -40px;
+}
+.app-head{
+    background-color: #353446;
+    color: #ffffff;
+}
+.app-head-content{
+    z-index: 9999;
+    background-color: #353446;
+}
+.app-head-subcontent{
+    padding: 10px 20px;
+    background-color: #353446;
+    color: #fff;
+}
+@media (min-width: 768px) {
+    .main {
+        padding-right: 40px;
+        padding-left: 40px;
+    }
+    .main .app-head{
+        margin-left: -40px;
+        margin-right: -40px;
+    }
+}
+
+/*
+*
+* HELPERS
+*/
+.isFixed{
+    position: fixed;
+    width: 100%;
+}
+.submenu {
+    display: block;
+    background: #0e69a0;
+}
+.submenu ul {
+    list-style: none;
+    padding-left: 0;
+}
+.submenu ul > li {
+    padding-left: 0px;
+}
+.submenu ul > li.active {
+    background-color: #25a1ef;
+}
+.submenu ul > li:hover,
+.submenu ul > li:focus{
+    background-color: #1975ad;
+}
+.submenu ul > li > a {
+    color: #fff;
+    padding: 10px 20px;
+    display: block;
+    text-decoration: none;
+}
+.panel-body-v01{
+    padding: 0;
+}
+.network-card .btn-default:hover {
+    color: #fff;
+    background-color: #25a1ef;
+    border-color: #1199ed;
+}

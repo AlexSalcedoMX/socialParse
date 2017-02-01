@@ -1,0 +1,318 @@
+@font-face {
+  font-family: 'parse';
+  src:  url('fonts/parse.eot?3ege9a');
+  src:  url('fonts/parse.eot?3ege9a#iefix') format('embedded-opentype'),
+    url('fonts/parse.ttf?3ege9a') format('truetype'),
+    url('fonts/parse.woff?3ege9a') format('woff'),
+    url('fonts/parse.svg?3ege9a#parse') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'parse' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.parse-analytics-outline:before {
+  content: "\e900";
+}
+.parse-analytics-solid:before {
+  content: "\e901";
+}
+.parse-android:before {
+  content: "\e902";
+}
+.parse-apple:before {
+  content: "\e903";
+}
+.parse-arduino:before {
+  content: "\e904";
+}
+.parse-blank-app-outline:before {
+  content: "\e905";
+}
+.parse-blank-app-solid:before {
+  content: "\e906";
+}
+.parse-bug-outline:before {
+  content: "\e907";
+}
+.parse-bug-solid:before {
+  content: "\e908";
+}
+.parse-calendar-outline:before {
+  content: "\e909";
+}
+.parse-calendar-solid:before {
+  content: "\e90a";
+}
+.parse-check-outline:before {
+  content: "\e90b";
+}
+.parse-check-solid:before {
+  content: "\e90c";
+}
+.parse-check:before {
+  content: "\e90d";
+}
+.parse-cloud-cool:before {
+  content: "\e90e";
+}
+.parse-cloud-happy:before {
+  content: "\e90f";
+}
+.parse-cloud-sad:before {
+  content: "\e910";
+}
+.parse-cloud-surprise:before {
+  content: "\e911";
+}
+.parse-cloud-unsure:before {
+  content: "\e912";
+}
+.parse-cloud-wink:before {
+  content: "\e913";
+}
+.parse-collaborate-outline:before {
+  content: "\e914";
+}
+.parse-collaborate-solid:before {
+  content: "\e915";
+}
+.parse-core:before {
+  content: "\e916";
+}
+.parse-devices-outline:before {
+  content: "\e917";
+}
+.parse-devices-solid:before {
+  content: "\e918";
+}
+.parse-dotnet:before {
+  content: "\e919";
+}
+.parse-down-outline:before {
+  content: "\e91a";
+}
+.parse-down-solid:before {
+  content: "\e91b";
+}
+.parse-download:before {
+  content: "\e91c";
+}
+.parse-edit-outline:before {
+  content: "\e91d";
+}
+.parse-edit-solid:before {
+  content: "\e91e";
+}
+.parse-ellipses:before {
+  content: "\e91f";
+}
+.parse-facebook:before {
+  content: "\e920";
+}
+.parse-files-outline:before {
+  content: "\e921";
+}
+.parse-files-solid:before {
+  content: "\e922";
+}
+.parse-filter-outline:before {
+  content: "\e923";
+}
+.parse-filter-solid:before {
+  content: "\e924";
+}
+.parse-folder-outline:before {
+  content: "\e925";
+}
+.parse-folder-solid:before {
+  content: "\e926";
+}
+.parse-gear-outline:before {
+  content: "\e927";
+}
+.parse-gear-solid:before {
+  content: "\e928";
+}
+.parse-gears:before {
+  content: "\e929";
+}
+.parse-github:before {
+  content: "\e92a";
+}
+.parse-google:before {
+  content: "\e92b";
+}
+.parse-hamburger:before {
+  content: "\e92c";
+}
+.parse-heroku:before {
+  content: "\e92d";
+}
+.parse-infinity:before {
+  content: "\e92e";
+}
+.parse-info-outline:before {
+  content: "\e92f";
+}
+.parse-info-solid:before {
+  content: "\e930";
+}
+.parse-javascript:before {
+  content: "\e931";
+}
+.parse-keys-outline:before {
+  content: "\e932";
+}
+.parse-keys-solid:before {
+  content: "\e933";
+}
+.parse-laptop-outline:before {
+  content: "\e934";
+}
+.parse-laptop-solid:before {
+  content: "\e935";
+}
+.parse-left-outline:before {
+  content: "\e936";
+}
+.parse-left-solid:before {
+  content: "\e937";
+}
+.parse-locked-outline:before {
+  content: "\e938";
+}
+.parse-locked-solid:before {
+  content: "\e939";
+}
+.parse-mail-outline:before {
+  content: "\e93a";
+}
+.parse-mail-solid:before {
+  content: "\e93b";
+}
+.parse-minus-outline:before {
+  content: "\e93c";
+}
+.parse-minus-solid:before {
+  content: "\e93d";
+}
+.parse-phone-outline:before {
+  content: "\e93e";
+}
+.parse-phone-solid:before {
+  content: "\e93f";
+}
+.parse-php:before {
+  content: "\e940";
+}
+.parse-plus-outline:before {
+  content: "\e941";
+}
+.parse-plus-solid:before {
+  content: "\e942";
+}
+.parse-plus:before {
+  content: "\e943";
+}
+.parse-push-outline:before {
+  content: "\e944";
+}
+.parse-push-solid:before {
+  content: "\e945";
+}
+.parse-question-solid:before {
+  content: "\e946";
+}
+.parse-refresh-outline:before {
+  content: "\e947";
+}
+.parse-refresh-solid:before {
+  content: "\e948";
+}
+.parse-right-outline:before {
+  content: "\e949";
+}
+.parse-right-solid:before {
+  content: "\e94a";
+}
+.parse-rpi:before {
+  content: "\e94b";
+}
+.parse-rtos:before {
+  content: "\e94c";
+}
+.parse-search-outline:before {
+  content: "\e94d";
+}
+.parse-search-solid:before {
+  content: "\e94e";
+}
+.parse-send-outline:before {
+  content: "\e94f";
+}
+.parse-send-solid:before {
+  content: "\e950";
+}
+.parse-share:before {
+  content: "\e951";
+}
+.parse-trash-outline:before {
+  content: "\e952";
+}
+.parse-trash-solid:before {
+  content: "\e953";
+}
+.parse-unity:before {
+  content: "\e954";
+}
+.parse-unlock-outline:before {
+  content: "\e955";
+}
+.parse-unlock-solid:before {
+  content: "\e956";
+}
+.parse-up-outline:before {
+  content: "\e957";
+}
+.parse-up-solid:before {
+  content: "\e958";
+}
+.parse-users-outline:before {
+  content: "\e959";
+}
+.parse-users-solid:before {
+  content: "\e95a";
+}
+.parse-warn-outline:before {
+  content: "\e95b";
+}
+.parse-warn-solid:before {
+  content: "\e95c";
+}
+.parse-windows:before {
+  content: "\e95d";
+}
+.parse-x-outline:before {
+  content: "\e95e";
+}
+.parse-x-solid:before {
+  content: "\e95f";
+}
+.parse-xamarin:before {
+  content: "\e960";
+}
+
